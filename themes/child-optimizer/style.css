@@ -1,0 +1,121 @@
+/*
+Theme Name: Optimizer Child
+Theme URI: https://optimizerwp.com/templates/
+Author: optimizerwp e Grupo 4 
+Template: optimizer
+Version: 0.7.4
+*/
+/* Definições gerais */
+p {
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+/* Títulos*/
+#sobre h1 {
+	color: var(--e-global-color-secondary);
+}
+
+#acoes h1, #doacoes h1 {
+	color: #fff;
+}
+
+/* Seção AÇÕES */
+.sp-pcp-post .sp-pcp-post-thumb-area img {
+    height: 200px !important;
+}
+#pcp_wrapper-312.pcp-carousel-wrapper .sp-pcp-post {
+    padding: 0;
+	height: 570px;	
+}
+.pcp-wrapper-312 .sp-pcp-title a {
+    color: var(--e-global-color-secondary);
+    display: inherit;
+	padding: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-family: 'Open sans', sans-serif;
+}
+#pcp_wrapper-312 .pcp-readmore-link {
+    display: none;
+}
+.sp-pcp-post-content {
+    padding: 20px 20px 0 20px;
+}
+
+/* Seção DOE */
+#doacoes .doe-button {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+#doacoes .elementor-accordion .elementor-tab-title {
+    text-align: center;
+}
+
+/* Formulário */
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-family: 'open sans', sans-serif;
+    color: #9C9C9C;
+    font-weight: 600;
+}
+div.wpforms-container-full .wpforms-form .wpforms-required-label {
+    color: var(--e-global-color-secondary);
+}
+div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {
+    background-color: transparent;
+}
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    background-color: var(--e-global-color-1bd56c1);
+    border: none;
+    color: #fff;
+    width: 250px;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    border-radius: 0;
+    padding: 15px;
+}
+button#wpforms-submit-279:hover {
+    background-color: var(--e-global-color-primary);
+    border: none;
+	    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contacts i {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #fff;
+}
+.contacts img, .fab.fa-whatsapp, .address img {
+    margin-right: 20px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    color: #fff;
+}
