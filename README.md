@@ -1,5 +1,5 @@
 # Desafio "Voluntários Digitais"
----
+
 Como proposta de desenvolvimento da habilidade de geração de impacto social relevante, o desafio **"Voluntários Digitais"** tem como meta a promoção de uma transformação digital em uma ONG ou projeto social específico, selecionado pelo *time.* 
 
 Diagnosticando suas principais necessidades, o objetivo se resume em criar soluções, de acordo com as competências diversas de todos do time, que solucionem ou promovam melhorias nas atuais redes e métodos utilizados pela associação.
